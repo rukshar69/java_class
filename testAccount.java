@@ -6,7 +6,7 @@ import customer.Customer;
 /**
  * Created by rukshar on 9/17/2015.
  */
-public class Test {
+public class TestAccount {
     public static void main(String[] args) {
         Customer john = new Customer("John Doe"  , "john@doe.com" , 'm');
         System.out.println(john.getName() + " ( " + john.getGender() + " ) at " + john.getEmail());
